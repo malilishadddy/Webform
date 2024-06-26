@@ -1,0 +1,140 @@
+/* styles.css */
+
+/* General styling for form container */
+#crmWebToEntityForm {
+  background-color: white;
+  color: black;
+  max-width: 404px;
+  padding: 25px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Responsive viewport meta tag */
+#crmWebToEntityForm meta[name='viewport'] {
+  width: device-width;
+  initial-scale: 1.0;
+}
+
+/* Additional meta tag */
+#crmWebToEntityForm META[HTTP-EQUIV='content-type'] {
+  CONTENT: text/html;charset=UTF-8;
+}
+
+/* Form element styles */
+#crmWebToEntityForm form {
+  text-align: left;
+}
+
+/* Title styling */
+#crmWebToEntityForm .zcwf_title {
+  max-width: 404px;
+  color: black;
+  font-family: Tahoma;
+  font-weight: bold;
+  word-wrap: break-word;
+  padding: 0px 6px 10px;
+}
+
+/* Label and input field styles */
+#crmWebToEntityForm .zcwf_col_lab {
+  font-size: 12px;
+  font-family: Tahoma;
+  width: 30%;
+  word-break: break-word;
+  padding: 0px 6px 0px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding-bottom: 4px;
+}
+
+#crmWebToEntityForm .zcwf_col_fld {
+  width: 60%;
+  padding: 0px 6px 0px;
+  position: relative;
+  margin-top: 5px;
+}
+
+#crmWebToEntityForm .zcwf_col_fld input[type=text], 
+#crmWebToEntityForm .zcwf_col_fld textarea {
+  width: 100%;
+  border: 1px solid #c0c6cc;
+  resize: vertical;
+  border-radius: 2px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+#crmWebToEntityForm .zcwf_col_fld_slt {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+#crmWebToEntityForm .formsubmit, 
+#crmWebToEntityForm input[type=reset] {
+  font-size: 12px;
+  color: var(--baseColor);
+  border: 1px solid #c0c6cc;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+/* Hover effect for submit button */
+#crmWebToEntityForm .formsubmit:hover {
+  background: linear-gradient(#02acff 0, #006be4 100%) no-repeat padding-box;
+  box-shadow: 0 -2px 0 0 #0159b9 inset;
+  border: 0;
+  color: #fff;
+  outline: 0;
+}
+
+/* Error message styling */
+#crmWebToEntityForm .zcwf_privacy_txt {
+  width: 90%;
+  font-size: 12px;
+  font-family: Tahoma;
+  display: inline-block;
+  vertical-align: top;
+  color: var(--baseColor);
+  padding-top: 2px;
+  margin-left: 6px;
+}
+
+/* Tooltip styling */
+#crmWebToEntityForm .zcwf_tooltip_ctn {
+  position: absolute;
+  background: #dedede;
+  padding: 3px 6px;
+  top: 3px;
+  border-radius: 4px;
+  min-width: 100px;
+  max-width: 150px;
+  color: var(--baseColor);
+  z-index: 100;
+}
+
+/* Additional customizations */
+@media all {
+  /* Responsive adjustments */
+  #crmWebToEntityForm .zcwf_col_lab,
+  #crmWebToEntityForm .zcwf_col_fld {
+      width: auto;
+      float: none !important;
+  }
+
+  #crmWebToEntityForm .zcwf_col_help {
+      width: 40%;
+  }
+}
