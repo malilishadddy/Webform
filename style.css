@@ -10,6 +10,7 @@
   box-sizing: border-box;
 }
 
+
 /* Responsive viewport meta tag */
 #crmWebToEntityForm meta[name='viewport'] {
   width: device-width;
